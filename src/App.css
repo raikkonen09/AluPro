@@ -1462,7 +1462,8 @@ footer {
   }
 
   .about-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
   }
 
@@ -1518,8 +1519,8 @@ footer {
   }
 
   .features-container {
-    margin: 0 0.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0.5rem 0;
+    grid-column: unset;
   }
 
   .features-title {
@@ -1841,8 +1842,8 @@ footer {
   }
 
   .features-container {
-    margin: 0 0.3rem;
-    margin-top: 1.8rem;
+    margin: 1.8rem 0.3rem 0;
+    grid-column: unset;
   }
 
   .features-title {
@@ -1864,8 +1865,8 @@ footer {
   }
 
   .about-quote {
-    margin: 0 0.3rem;
-    margin-top: 1.8rem;
+    margin: 1.8rem 0.3rem 0;
+    grid-column: unset;
   }
 
   .about-quote p {
